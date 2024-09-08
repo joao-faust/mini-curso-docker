@@ -1,0 +1,5 @@
+vendor/
+mysql-data/
+.env
+composer.json
+composer.lock
