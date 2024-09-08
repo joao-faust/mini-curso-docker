@@ -15,7 +15,7 @@ services:
   # serviço apache e php
   web:
     build: .
-    container_name: php-apache-container
+    container_name: web-container
     ports:
       - "8080:80"
     volumes:
