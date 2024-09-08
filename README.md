@@ -71,7 +71,7 @@ docker compose -up -d
 docker compose down
 
 # abre o terminal do container especificado
-docker exec -it web-container
+docker exec -it web-container sh
 
 # cria o arquivo composer.json
 docker exec -it web-container composer init
